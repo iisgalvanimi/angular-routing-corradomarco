@@ -15,7 +15,7 @@ export class TrackComponent implements OnInit {
   routeObs: Observable<ParamMap>; 
     spotifyServiceObs: any; 
   track : any; //Qui salverò la traccia selezionata
-  
+  location:any;
   //Usiamo la dependency injection per farci mandare i moduli del routing e dello    
   //SpotifyService
   constructor(
@@ -40,10 +40,9 @@ export class TrackComponent implements OnInit {
     this.spotifyServiceObs.subscribe((data)=>this.track = data)
   }
 
-  back()
-  {//DA FINIRE }
+  back() : void
+  {
+    this.location.back();
+  }
      
-}
-
-
 }
