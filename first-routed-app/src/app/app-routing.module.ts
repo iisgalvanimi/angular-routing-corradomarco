@@ -9,7 +9,7 @@ const routes: Routes = [
     { path: 'search', component: SearchComponent },
      { path: 'tracks/:id', component: TrackComponent },
      { path: '',   redirectTo: '/search', pathMatch: 'full' },
-      { path: 'artist', component: ArtistComponent }
+      { path: 'artist/:id', component: ArtistComponent }
 ];
 
 @NgModule({
