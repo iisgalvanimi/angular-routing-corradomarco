@@ -1,0 +1,35 @@
+{
+  "external_urls": {
+    "spotify": "https://open.spotify.com/artist/2K5nCggbhSZ00YCYP5qkZS"
+  },
+  "followers": {
+    "href": null,
+    "total": 317231
+  },
+  "genres": [
+    "trap italiana"
+  ],
+  "href": "https://api.spotify.com/v1/artists/2K5nCggbhSZ00YCYP5qkZS",
+  "id": "2K5nCggbhSZ00YCYP5qkZS",
+  "images": [
+    {
+      "height": 640,
+      "url": "https://i.scdn.co/image/9ef7dca7c1e76f33f324181699cbe016a9289fe0",
+      "width": 640
+    },
+    {
+      "height": 320,
+      "url": "https://i.scdn.co/image/6e5cc26dd5d129e303dd4abbd32e7421e4dd5d6a",
+      "width": 320
+    },
+    {
+      "height": 160,
+      "url": "https://i.scdn.co/image/f36df9de2db5186b70bbd22aba0c84091b43e992",
+      "width": 160
+    }
+  ],
+  "name": "Shiva",
+  "popularity": 76,
+  "type": "artist",
+  "uri": "spotify:artist:2K5nCggbhSZ00YCYP5qkZS"
+}
